@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-void main()
+int main()
 {
     int num1, num2, sum;
     printf("Enter first num:");
@@ -9,6 +9,6 @@ void main()
     scanf("%d", &num2);
     sum = num1 + num2;
     printf("%d + %d=%d", num1, num2, sum);
-    getch ();
-
+    getch();
+    return 0;
 }
