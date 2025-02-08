@@ -1,7 +1,8 @@
  #include <stdio.h>
+ #include<conio.h>
  #include <math.h>
  
- int main()
+ void main()
  {
      int num, swappedNum;
      int firstDigit, lastDigit, digits;
@@ -28,5 +29,5 @@
      printf("Original number = %d", num);
      printf("Number after swapping first and last digit: %d", swappedNum);
  
-     getch;
+     getch();
  }
