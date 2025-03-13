@@ -12,4 +12,7 @@ void main()
 
     SI = (principle * rate * time) / 100;
     Amount = principle + SI;
+
+    printf("\nSimple Interest : %.2f", SI);
+    printf("\nAmount : %.2f", Amount);
 }
