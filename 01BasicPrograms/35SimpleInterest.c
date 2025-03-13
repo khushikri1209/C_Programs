@@ -9,4 +9,7 @@ void main()
     scanf("%f", &rate);
     printf("Enter time: ");
     scanf("%f", &time);
+
+    SI = (principle * rate * time) / 100;
+    Amount = principle + SI;
 }
