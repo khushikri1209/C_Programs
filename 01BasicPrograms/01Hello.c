@@ -2,6 +2,6 @@
 #include<conio.h>
 void main(){
     printf("Hello World");
-    printf("My name is Khushi Kumari");
-    printf("I'm a programmer.");
+    printf("\nMy name is Khushi Kumari");
+    printf("\nI'm a programmer.");
 }
